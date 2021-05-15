@@ -1,5 +1,6 @@
-import os
 import telebot
+
+from os import environ
 from config import BOT_TOKEN
 from text import WELCOME, VRTXT
 
