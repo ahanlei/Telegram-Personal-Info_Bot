@@ -1,11 +1,8 @@
 import telebot
-
-from os import environ
-from config import BOT_TOKEN
 from text import WELCOME, VRTXT
 
-worker = "BOT_TOKEN"
-bot = telebot.TeleBot(worker)
+BOT_TOKEN = "1765303617:AAFURgnhnxaVOhdMxiN41rCFG4gVO38q5XE"
+bot = telebot.TeleBot(BOT_TOKEN)
 
 
 @bot.message_handler(commands=["start"])
