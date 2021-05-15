@@ -4,7 +4,7 @@ from os import environ
 from config import BOT_TOKEN
 from text import WELCOME, VRTXT
 
-worker = config.BOT_TOKEN
+worker = "BOT_TOKEN"
 bot = telebot.TeleBot(worker)
 
 
