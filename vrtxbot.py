@@ -30,10 +30,8 @@ def start(message):
         🟢Spotify Downloader🎤📥
          @vrtxspotify_bot"""
         vrtx.reply_to(message, welcomet)  
-        vrtx.reply_to(message, """
-˜”*°•.˜”*°• I Will only echo ur msg so don't type anything else.
-Or u may try to type and check what happens •°*”˜.•°*”˜"""
-                    )    
+        
+ 
 '''----------------------------------------------------------------------'''     
 @vrtx.message_handler(commands=["vrtx"])
 def vrtx(message):
@@ -59,17 +57,16 @@ def vrtx(message):
         🟢Spotify Downloader🎤📥
          @vrtxspotify_bot"""
         vrtx.reply_to(message, welcomet)  
+        
+        
 '''----------------------------------------------------------------------'''  
 @vrtx.message_handler(commands=["owner"])
 def owner(message):
         met = "@mastermindvrtx A.K.A 🃏 ʍǟֆȶɛʀʍɨռɖ.ʋʀȶӼ™ "
         vrtx.reply_to(message, met)
+        
+        
 '''----------------------------------------------------------------------'''
-@vrtx.message_handler(func=lambda m: True)
-def echo_all(message):
-	vrtx.reply_to(message, message.text)
-'''----------------------------------------------------------------------'''
-
 
  
 vrtx.polling()
