@@ -21,6 +21,13 @@ WELCOME = """
         
         🟢Spotify Downloader🎤📥
          @vrtxspotify_bot
+         
+         〽️Image.2.URL converter
+         @vrtxurl_bot
+         
+        💹Image.2.PDF
+         @vrtximage2pdf_bot
+         
 """
 
 
@@ -45,4 +52,11 @@ VRTXT = """
         
         🟢Spotify Downloader🎤📥
          @vrtxspotify_bot
-""" 
+         
+         〽️Image.2.URL converter
+         @vrtxurl_bot
+         
+        💹Image.2.PDF
+         @vrtximage2pdf_bot
+         
+"""
